@@ -1,0 +1,92 @@
+/* =========================================================
+   VARIABLES GLOBALES - LRCP Landing
+   Edita aquí todo lo relacionado a colores, fuentes y espaciados.
+   Todo el sitio toma sus valores desde este archivo.
+   ========================================================= */
+
+:root {
+  /* ============ COLORES PRINCIPALES ============ */
+  --color-primary: #1E4E5A;          /* Verde oscuro (color principal de marca) */
+  --color-primary-hover: #2a6575;    /* Hover botón verde */
+  --color-secondary: #CCB691;        /* Marrón / dorado (sección contacto) */
+  --color-accent: #BFA475;           /* Iconos, símbolos + y -, acentos */
+  --color-cream: #F4EFDF;            /* Amarillento (fondo de servicios) */
+
+  /* ============ COLORES UI ============ */
+  --color-white: #FFFFFF;
+  --color-black: #1a1a1a;
+  --color-text: #1E1E1E;
+  --color-text-light: #6b7280;
+  --color-text-muted: #9ca3af;
+  --color-border: #e5e7eb;
+  --color-border-light: #f0f0f0;     /* Hover botón transparente */
+  --color-bg-light: #f9fafb;
+
+  /* ============ TIPOGRAFÍAS ============ */
+  --font-display: 'Plus Jakarta Sans', sans-serif;       /* Títulos grandes */
+  --font-heading: 'Niveau Grotesk', 'Plus Jakarta Sans', sans-serif; /* Subtítulos */
+  --font-body: 'Plus Jakarta Sans', sans-serif;          /* Texto general */
+  --font-button: 'Manrope', sans-serif;                  /* Botones */
+
+  /* ============ TAMAÑOS DE FUENTE ============ */
+  --fs-xs: 0.75rem;       /* 12px */
+  --fs-sm: 0.875rem;      /* 14px */
+  --fs-base: 1rem;        /* 16px */
+  --fs-md: 1.125rem;      /* 18px */
+  --fs-lg: 1.25rem;       /* 20px */
+  --fs-xl: 1.5rem;        /* 24px */
+  --fs-2xl: 2rem;         /* 32px */
+  --fs-3xl: 2.5rem;       /* 40px */
+  --fs-4xl: 3rem;         /* 48px */
+  --fs-5xl: 3.5rem;       /* 56px */
+
+  /* ============ PESOS DE FUENTE ============ */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* ============ ESPACIADOS ============ */
+  --space-xs: 0.25rem;    /* 4px */
+  --space-sm: 0.5rem;     /* 8px */
+  --space-md: 1rem;       /* 16px */
+  --space-lg: 1.5rem;     /* 24px */
+  --space-xl: 2rem;       /* 32px */
+  --space-2xl: 3rem;      /* 48px */
+  --space-3xl: 4rem;      /* 64px */
+  --space-4xl: 6rem;      /* 96px */
+  --space-5xl: 8rem;      /* 128px */
+
+  /* ============ RADIOS DE BORDE ============ */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ============ SOMBRAS ============ */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 20px 50px rgba(0, 0, 0, 0.18);
+  --shadow-card-hover: 0 15px 35px rgba(30, 78, 90, 0.25);
+
+  /* ============ TRANSICIONES ============ */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ============ CONTENEDOR / LAYOUT ============ */
+  --container-max: 1280px;
+  --container-padding: 1.5rem;
+  --header-height: 80px;
+
+  /* ============ Z-INDEX ============ */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-header: 1000;
+  --z-modal: 2000;
+}

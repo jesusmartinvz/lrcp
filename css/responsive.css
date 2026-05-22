@@ -1,0 +1,229 @@
+/* =========================================================
+   RESPONSIVE - Mobile y Tablet
+   ========================================================= */
+
+/* ============ TABLET (1024px) ============ */
+@media (max-width: 1024px) {
+  :root {
+    --space-5xl: 6rem;
+    --space-4xl: 4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============ MOBILE (768px) ============ */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 70px;
+    --container-padding: 1.25rem;
+    --space-5xl: 4rem;
+    --space-4xl: 3rem;
+    --space-3xl: 2.5rem;
+  }
+
+  /* HEADER MÓVIL */
+  .menu-toggle {
+    display: flex;
+  }
+
+  .header-nav {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background-color: var(--color-white);
+    flex-direction: column;
+    gap: 0;
+    padding: var(--space-lg) var(--container-padding);
+    transform: translateY(-150%);
+    transition: transform var(--transition-base);
+    box-shadow: var(--shadow-lg);
+    align-items: stretch;
+  }
+
+  .header-nav.active {
+    transform: translateY(0);
+  }
+
+  .header-nav-link {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: var(--fs-base);
+  }
+
+  .header-nav-link::after {
+    display: none;
+  }
+
+  .header-cta .btn {
+    display: none;
+  }
+
+  /* HERO MÓVIL */
+  .hero {
+    padding-top: calc(var(--header-height) + var(--space-lg));
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .hero-image-wrapper {
+    order: -1;
+    aspect-ratio: 16/10;
+  }
+
+  .hero-badge-left {
+    bottom: auto;
+    top: 20%;
+    left: 10px;
+  }
+
+  .hero-badge-right {
+    bottom: 10%;
+    right: 10px;
+  }
+
+  .hero-badge {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .hero-badge-number {
+    font-size: var(--fs-xl);
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  /* POR QUÉ LRCP MÓVIL */
+  .why-us-card {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+
+  .feature-cards {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  /* SERVICIOS MÓVIL */
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .services-image-wrapper {
+    aspect-ratio: 16/10;
+    order: -1;
+  }
+
+  .services-tabs {
+    flex-wrap: wrap;
+  }
+
+  .accordion-header {
+    padding: var(--space-md);
+  }
+
+  .accordion-content-inner {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  .services-cta {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .services-cta .btn {
+    width: 100%;
+  }
+
+  /* EQUIPO MÓVIL */
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  /* CONTACTO MÓVIL */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .contact-form-wrapper {
+    padding: var(--space-lg);
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FOOTER MÓVIL */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-legal-links {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+}
+
+/* ============ MOBILE PEQUEÑO (480px) ============ */
+@media (max-width: 480px) {
+  :root {
+    --fs-3xl: 2rem;
+    --fs-2xl: 1.5rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.625rem;
+  }
+
+  .hero-badge {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .hero-badge-number {
+    font-size: 1.25rem;
+  }
+
+  .hero-badge-label {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LRCP - Legal & Regulatory Consulting Perú. Asesoría jurídica en regulación de servicios públicos." />
+  <meta name="keywords" content="abogados, asesoría legal, regulación, servicios públicos, Perú, LRCP" />
+  <title>LRCP - Legal & Regulatory Consulting Perú</title>
+
+  <!-- Favicon (reemplaza con el tuyo) -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+  <!-- Fuentes Google: Plus Jakarta Sans + Manrope (Niveau Grotesk es de pago, usamos Plus Jakarta como fallback) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS (orden importante: variables → reset → base → layout → sections → responsive) -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="header-logo">
+        <img src="assets/logo/logo-full-white.svg" alt="LRCP Legal & Regulatory" onerror="this.style.display='none'" />
+      </a>
+
+      <div class="header-right">
+        <nav class="header-nav">
+          <a href="#inicio" class="header-nav-link">Inicio</a>
+          <a href="#nosotros" class="header-nav-link">Nosotros</a>
+          <a href="#servicios" class="header-nav-link">Servicios</a>
+          <a href="#equipo" class="header-nav-link">Equipo</a>
+        </nav>
+
+        <div class="header-cta">
+          <a href="#contacto" class="btn btn-md btn-primary">Contáctanos</a>
+          <button class="menu-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Asesoría Jurídica en
+            Regulación de
+            <span class="hero-title-accent">Servicios Públicos</span>
+          </h1>
+          <p class="hero-description">
+            Brindamos litigación y asesoría legal, representando a empresas en procedimientos sancionadores ante autoridades y organismos supervisores.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contacto" class="btn btn-primary">Consulta para empresas</a>
+            <a href="#contacto" class="btn btn-outline">Asesoría Personal</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <!-- REEMPLAZA: assets/images/hero.jpg con tu imagen principal -->
+          <img src="assets/images/hero.jpg" alt="Equipo legal LRCP en consulta" class="hero-image" onerror="this.src='https://placehold.co/800x600/1E4E5A/ffffff?text=Hero+Image'" />
+
+          <!-- Badge flotante: +5 Experiencia -->
+          <div class="hero-badge hero-badge-left">
+            <div class="hero-badge-number">+5</div>
+            <div class="hero-badge-label">Experiencia</div>
+          </div>
+
+          <!-- Badge flotante: 500+ Casos -->
+          <div class="hero-badge hero-badge-right">
+            <div class="hero-badge-number">500+</div>
+            <div class="hero-badge-label">Casos atendidos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ POR QUÉ LRCP ============ -->
+  <section class="why-us" id="nosotros">
+    <div class="container">
+      <div class="why-us-card">
+        <div class="section-eyebrow" style="justify-content: center;">¿POR QUÉ LRCP?</div>
+        <h2 class="section-title">Una firma que combina rigor técnico<br />con visión estratégica</h2>
+        <p class="section-subtitle">
+          No somos un estudio masivo. Somos un equipo especializado que acompaña a cada cliente con atención directa, soluciones adaptadas y perspectiva integral.
+        </p>
+
+        <div class="feature-cards">
+          <!-- Card 1 -->
+          <div class="feature-card">
+            <div class="feature-card-header">
+              <div class="feature-card-number">01</div>
+              <div class="feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-card-title">Enfoque Integral y Estratégico</h3>
+            <p class="feature-card-description">
+              Combinamos asesoría preventiva, negociación, conciliación y defensa legal. No nos limitamos al litigio; buscamos soluciones eficientes y sostenibles para cada situación.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="feature-card">
+            <div class="feature-card-header">
+              <div class="feature-card-number">02</div>
+              <div class="feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"/>
+                  <line x1="12" y1="20" x2="12" y2="4"/>
+                  <line x1="6" y1="20" x2="6" y2="14"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-card-title">Experiencia Pública y Privada</h3>
+            <p class="feature-card-description">
+              Nuestro equipo maneja relaciones con entidades del Estado, cumplimiento normativo y negociación regulatoria, comprendiendo la lógica empresarial y la administrativa.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="feature-card">
+            <div class="feature-card-header">
+              <div class="feature-card-number">03</div>
+              <div class="feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-card-title">Atención Cercana y Adaptable</h3>
+            <p class="feature-card-description">
+              Comunicación clara, acompañamiento constante y soluciones diseñadas para la realidad del cliente. Estándares profesionales para asuntos corporativos y personales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="services-grid">
+        <div class="services-content">
+          <div class="section-eyebrow">NUESTROS SERVICIOS</div>
+          <h2 class="section-title">Cobertura legal completa,<br />para cada etapa</h2>
+
+          <!-- Tabs Personal / Empresa -->
+          <div class="services-tabs">
+            <button class="services-tab active" data-tab="personal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              Asesoría Personal
+            </button>
+            <button class="services-tab" data-tab="empresa">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/>
+              </svg>
+              Consulta para Empresas
+            </button>
+          </div>
+
+          <!-- Acordeón -->
+          <div class="accordion">
+            <div class="accordion-item active">
+              <div class="accordion-header">
+                <div class="accordion-header-left">
+                  <div class="accordion-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                      <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                  </div>
+                  <h3 class="accordion-title">Derecho Civil y Patrimonial</h3>
+                </div>
+                <div class="accordion-toggle">
+                  <svg class="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                    <line x1="12" y1="5" x2="12" y2="19"/>
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                  <svg class="icon-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Protección de derechos reales, obligaciones contractuales y gestión del patrimonio familiar.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-header-left">
+                  <div class="accordion-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"/>
+                      <line x1="12" y1="8" x2="12" y2="12"/>
+                      <line x1="12" y1="16" x2="12.01" y2="16"/>
+                    </svg>
+                  </div>
+                  <h3 class="accordion-title">Defensa y Representación Penal</h3>
+                </div>
+                <div class="accordion-toggle">
+                  <svg class="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"/>
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                  <svg class="icon-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Defensa estratégica en procesos penales y representación ante autoridades judiciales.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-header-left">
+                  <div class="accordion-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                      <polyline points="14 2 14 8 20 8"/>
+                      <line x1="16" y1="13" x2="8" y2="13"/>
+                      <line x1="16" y1="17" x2="8" y2="17"/>
+                    </svg>
+                  </div>
+                  <h3 class="accordion-title">Elaboración y Revisión de Contratos</h3>
+                </div>
+                <div class="accordion-toggle">
+                  <svg class="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"/>
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                  <svg class="icon-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Redacción, revisión y negociación de contratos comerciales, laborales y de servicios.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-header-left">
+                  <div class="accordion-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                      <circle cx="9" cy="7" r="4"/>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                  </div>
+                  <h3 class="accordion-title">Derecho de Familia</h3>
+                </div>
+                <div class="accordion-toggle">
+                  <svg class="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"/>
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                  <svg class="icon-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Divorcios, tenencia, pensión de alimentos, sucesiones y asesoramiento integral en derecho de familia.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-header-left">
+                  <div class="accordion-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                  </div>
+                  <h3 class="accordion-title">Conciliaciones y Negociación Extrajudicial</h3>
+                </div>
+                <div class="accordion-toggle">
+                  <svg class="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"/>
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                  <svg class="icon-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Mediación y solución alternativa de conflictos antes de llegar a instancias judiciales.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA dentro de servicios -->
+          <div class="services-cta">
+            <div class="services-cta-text">
+              <strong>¿No sabes por donde empezar?</strong>
+              <span>Agenda una asesoría y recibe orientación legal adaptada a tu caso</span>
+            </div>
+            <a href="#contacto" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Agendar Asesoría
+            </a>
+          </div>
+        </div>
+
+        <!-- Imagen lateral -->
+        <div class="services-image-wrapper">
+          <!-- REEMPLAZA: assets/images/services.jpg -->
+          <img src="assets/images/services.jpg" alt="Balanza de la justicia" class="services-image" onerror="this.src='https://placehold.co/600x600/F4EFDF/1E4E5A?text=Imagen+Servicios'" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NUESTRO EQUIPO ============ -->
+  <section class="team" id="equipo">
+    <div class="container">
+      <div class="team-header">
+        <div class="section-eyebrow" style="justify-content: center;">CONOCE</div>
+        <h2 class="section-title">Nuestro Equipo</h2>
+        <p class="section-subtitle">
+          No somos un estudio masivo. Somos un equipo especializado que acompaña a cada cliente con atención directa, soluciones adaptadas y perspectiva integral.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Miembro 1 -->
+        <div class="team-card">
+          <!-- REEMPLAZA: assets/images/team-1.jpg -->
+          <img src="assets/images/team-1.jpg" alt="Ernesto Davila" class="team-card-image" onerror="this.src='https://placehold.co/600x800/1E4E5A/ffffff?text=Ernesto+Davila'" />
+          <div class="team-card-overlay">
+            <div class="team-card-info">
+              <div class="team-card-info-name">Ernesto Davila</div>
+              <div class="team-card-info-role">Coordinador Legal</div>
+            </div>
+            <a href="#" class="team-card-social" aria-label="LinkedIn de Ernesto">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Miembro 2 -->
+        <div class="team-card">
+          <img src="assets/images/team-2.jpg" alt="Augusto Loayza" class="team-card-image" onerror="this.src='https://placehold.co/600x800/1E4E5A/ffffff?text=Augusto+Loayza'" />
+          <div class="team-card-overlay">
+            <div class="team-card-info">
+              <div class="team-card-info-name">Augusto Loayza</div>
+              <div class="team-card-info-role">Abogado Asociado</div>
+            </div>
+            <a href="#" class="team-card-social" aria-label="LinkedIn de Augusto">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Miembro 3 -->
+        <div class="team-card">
+          <img src="assets/images/team-3.jpg" alt="Moises Lopez" class="team-card-image" onerror="this.src='https://placehold.co/600x800/1E4E5A/ffffff?text=Moises+Lopez'" />
+          <div class="team-card-overlay">
+            <div class="team-card-info">
+              <div class="team-card-info-name">Moises Lopez</div>
+              <div class="team-card-info-role">Analista legal</div>
+            </div>
+            <a href="#" class="team-card-social" aria-label="LinkedIn de Moises">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles del carrusel -->
+      <div class="team-controls">
+        <button class="team-control team-control-prev" aria-label="Anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+        <button class="team-control team-control-next" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-eyebrow">CONTACTO</div>
+          <h2 class="section-title">Hablemos de su caso</h2>
+          <p class="contact-description">
+            Déjenos su consulta a través del siguiente formulario y nuestro equipo legal le brindará la orientación necesaria. Estamos comprometidos en ofrecerle una atención profesional, confidencial y personalizada.
+          </p>
+
+          <div class="contact-features">
+            <div class="contact-feature">
+              <div class="contact-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <div class="contact-feature-content">
+                <strong>Atención Profesional</strong>
+                <span>Reciba Asesoría de abogados especializados</span>
+              </div>
+            </div>
+
+            <div class="contact-feature">
+              <div class="contact-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <div class="contact-feature-content">
+                <strong>Confidencialidad garantizada</strong>
+                <span>Reciba Asesoría de abogados especializados</span>
+              </div>
+            </div>
+
+            <div class="contact-feature">
+              <div class="contact-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <div class="contact-feature-content">
+                <strong>Respuesta ágil</strong>
+                <span>Reciba Asesoría de abogados especializados</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="contact-form-wrapper">
+          <h3 class="contact-form-title">Envíenos su consulta</h3>
+          <p class="contact-form-subtitle">Respuesta en menos de un día hábil</p>
+
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="nombre" class="form-label form-label-required">NOMBRE COMPLETO</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Juan García" required />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label form-label-required">CORREO ELECTRÓNICO</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="juan@empresa.com" required />
+              </div>
+              <div class="form-group">
+                <label for="telefono" class="form-label">TELÉFONO</label>
+                <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="+51 999 000 000" />
+              </div>
+              <div class="form-group">
+                <label for="asunto" class="form-label form-label-required">ASUNTO</label>
+                <select id="asunto" name="asunto" class="form-select" required>
+                  <option value="">Asesoría corporativa</option>
+                  <option value="corporativa">Asesoría corporativa</option>
+                  <option value="personal">Asesoría personal</option>
+                  <option value="contratos">Contratos</option>
+                  <option value="otros">Otros</option>
+                </select>
+              </div>
+            </div>
+
+            <label class="form-label form-label-required">TIPO DE CONSULTA</label>
+            <div class="form-radio-group">
+              <div class="form-radio-option active" data-value="empresa">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/>
+                </svg>
+                EMPRESA
+              </div>
+              <div class="form-radio-option" data-value="persona">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+                PERSONA NATURAL
+              </div>
+            </div>
+            <input type="hidden" id="tipo-consulta-value" name="tipo_consulta" value="empresa" />
+
+            <div class="form-group form-group-full">
+              <label for="mensaje" class="form-label">MENSAJE</label>
+              <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Cuéntanos brevemente su situación o consulta..."></textarea>
+            </div>
+
+            <div class="form-checkbox-group">
+              <label class="form-checkbox">
+                <input type="checkbox" required />
+                Acepto <a href="#">Términos y condiciones</a>
+              </label>
+              <label class="form-checkbox">
+                <input type="checkbox" required />
+                Políticas de privacidad de datos personales
+              </label>
+            </div>
+
+            <button type="submit" class="form-submit">
+              ENVIAR CONSULTA
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-logo">LRCP</div>
+          <div class="footer-brand-tagline">LEGAL &amp; REGULATORY CONSULTING PERÚ</div>
+          <p class="footer-description">
+            Firma legal peruana con enfoque estratégico. Soluciones jurídicas integrales para personas y empresas.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-column-title">SERVICIOS</h4>
+          <div class="footer-links">
+            <a href="#servicios">Personas naturales</a>
+            <a href="#servicios">Empresas y emprendedores</a>
+            <a href="#servicios">Asesoría corporativa</a>
+            <a href="#servicios">Defensa penal</a>
+            <a href="#servicios">Conciliaciones</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-column-title">FIRMA</h4>
+          <div class="footer-links">
+            <a href="#nosotros">Nosotros</a>
+            <a href="#nosotros">Por qué LRCP</a>
+            <a href="#contacto">Contacto</a>
+            <a href="mailto:contacto@lrcp.pe">contacto@lrcp.pe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2026 Legal &amp; Regulatory Consulting Perú S.A.C. Todos los derechos reservados.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
