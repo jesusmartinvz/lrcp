@@ -21,12 +21,13 @@
   --color-border: #e5e7eb;
   --color-border-light: #f0f0f0;     /* Hover botón transparente */
   --color-bg-light: #f9fafb;
+  --color-bg-section: #F7FDFF;
+  --color-bg-header: #F8FDFF;
 
   /* ============ TIPOGRAFÍAS ============ */
-  --font-display: 'Plus Jakarta Sans', sans-serif;       /* Títulos grandes */
-  --font-heading: 'Niveau Grotesk', 'Plus Jakarta Sans', sans-serif; /* Subtítulos */
-  --font-body: 'Plus Jakarta Sans', sans-serif;          /* Texto general */
-  --font-button: 'Manrope', sans-serif;                  /* Botones */
+  --font-base: 'Plus Jakarta Sans', sans-serif;          /* Texto general y títulos base */
+  --font-accent: 'Niveau Grotesk', 'Plus Jakarta Sans', sans-serif; /* Títulos especiales */
+  --font-ui: 'Manrope', sans-serif;                      /* Botones e interfaz */
 
   /* ============ TAMAÑOS DE FUENTE ============ */
   --fs-xs: 0.75rem;       /* 12px */
